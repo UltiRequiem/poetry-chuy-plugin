@@ -12,7 +12,15 @@
 This plugin integrates [Chuy](https://github.com/UltiRequiem/chuy) with
 [Poetry](https://github.com/python-poetry/poetry).
 
-## Usage
+## Installation
+
+From your terminal:
+
+```bash
+poetry plugin add poetry-chuy-plugin
+```
+
+## Configuration
 
 In your `pyproject.toml`:
 
@@ -23,3 +31,7 @@ lint = "poetry run pylint chuy tests"
 tests = "poetry run pytest"
 package = "poetry build && poetry publish"
 ```
+
+### License
+
+This project is licensed under the [MIT License](https://github.com/UltiRequiem/poetry-chuy-plugin/blob/main/LICENSE).
