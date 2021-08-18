@@ -4,6 +4,12 @@ version = "0.1.0"
 description = "Plugin to integrate Chuy with Poetry"
 authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/UltiRequiem/poetry-chuy-plugin"
+repository = "https://github.com/UltiRequiem/poetry-chuy-plugin"
+keywords = ["commands", "utilities", "cli"]
+include = ["LICENSE"]
+
 
 [tool.poetry.dependencies]
 python = "^3.7"
