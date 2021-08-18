@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetry-chuy-plugin"
+version = "0.1.0"
+description = "Plugin to integrate Chuy with Poetry"
+authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+chuy = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+pylint = "^2.9.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
