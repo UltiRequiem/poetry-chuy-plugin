@@ -15,4 +15,4 @@ jobs:
           pip install poetry chuy
           poetry install
       - name: Run pylint
-        run: poetry run pylint poetry_chuy_plugin
+        run: poetry run pylint poetry_chuy_plugin tests
