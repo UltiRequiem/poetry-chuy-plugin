@@ -6,12 +6,17 @@ authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.7"
-chuy = "^1.1.2"
+python = "3.8"
+chuy = "1.2.0"
+poetry = "^1.1.7"
 
 [tool.poetry.dev-dependencies]
 black = "^21.7b0"
 pylint = "^2.9.6"
+pytest = "^6.2.4"
+
+[tool.poetry.plugins."poetry.chuy"]
+chuy = "poetry_chuy_plugin.plugin:ChuyPlugin"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
