@@ -8,3 +8,18 @@
 ![Repo Size](https://img.shields.io/github/repo-size/ultirequiem/poetry-chuy-plugin?style=flat-square&label=Repo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Lines of Code](https://img.shields.io/tokei/lines/github.com/UltiRequiem/poetry-chuy-plugin?color=blue&label=Total%20Lines)
+
+This plugin integrates [Chuy](https://github.com/UltiRequiem/chuy) with
+[Poetry](https://github.com/python-poetry/poetry).
+
+## Usage
+
+In your `pyproject.toml`:
+
+```toml
+[tool.chuy]
+format = "poetry run black ."
+lint = "poetry run pylint chuy tests"
+tests = "poetry run pytest"
+package = "poetry build && poetry publish"
+```
