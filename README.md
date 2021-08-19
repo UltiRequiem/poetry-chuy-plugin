@@ -12,6 +12,8 @@
 This plugin integrates [Chuy](https://github.com/UltiRequiem/chuy) with
 [Poetry](https://github.com/python-poetry/poetry).
 
+_Note_: This only works in Poetry 1.2.0 or superior.
+
 ## Installation
 
 From your terminal:
