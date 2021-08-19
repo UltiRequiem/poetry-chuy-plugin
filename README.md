@@ -32,6 +32,20 @@ tests = "poetry run pytest"
 package = "poetry build && poetry publish"
 ```
 
+## Usage
+
+```bash
+poetry chuy tests
+```
+
+Or pass multiple arguments:
+
+```bash
+poetry chuy tests lint
+```
+
+See [Chuy](https://github.com/UltiRequiem/chuy) for all the options.
+
 ### License
 
 This project is licensed under the [MIT License](https://github.com/UltiRequiem/poetry-chuy-plugin/blob/main/LICENSE).
