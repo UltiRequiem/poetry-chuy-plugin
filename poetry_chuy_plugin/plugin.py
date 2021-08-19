@@ -1,3 +1,5 @@
+import sys
+
 try:
     from poetry.console import application as app
     from poetry.plugins.application_plugin import ApplicationPlugin
@@ -18,6 +20,8 @@ class PoePlugin(ApplicationPlugin):
                 "Poetry not found. Did you install this plugin via `poetry plugin add poetry-chuy-plugin`?"
             )
             sys.exit(1)
+
+        # I'm going to wait until the plugin API of poetry is more stable
 
         print("Is Working!")
         print(application)
