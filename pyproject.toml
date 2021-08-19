@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "poetry-chuy-plugin"
-version = "0.2.0"
+version = "0.2.1"
 description = "Plugin to integrate Chuy with Poetry"
 authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
 license = "MIT"
