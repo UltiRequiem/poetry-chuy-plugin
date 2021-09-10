@@ -1,3 +1,7 @@
+# Archived
+
+This is bundled with Chuy since [v1.3.0](https://github.com/UltiRequiem/chuy/releases/tag/v1.3.0).
+
 # Poetry Chuy Plugin
 
 ![CodeQL](https://github.com/UltiRequiem/poetry-chuy-plugin/workflows/CodeQL/badge.svg)
